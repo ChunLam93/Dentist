@@ -131,7 +131,7 @@ public class Main extends Application {
 		Buttons.roll2.getChildren().add(Buttons.line);
 		Buttons.showUser.setFont(new Font("Arial", 30));
 		Buttons.roll4.getChildren().add(Buttons.showUser);
-		Buttons.setLayout.getChildren().addAll(Buttons.roll4,Buttons.roll2,Buttons.roll1,Buttons.roll3,Buttons.save);
+		Buttons.setLayout.getChildren().addAll(Buttons.roll4,Buttons.roll2,Buttons.roll1,Buttons.roll3);
 
 		//AddPatien
 		Buttons.apToptitle.setFont(new Font("Arial", 30));
